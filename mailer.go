@@ -2,7 +2,7 @@ package mailer
 
 import (
 	"github.com/conku/assetfs"
-	render "github.com/conku/render2"
+	render "github.com/conku/render"
 )
 
 // SenderInterface sender's interface
