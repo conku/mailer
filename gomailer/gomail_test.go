@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/conku/configor"
 	"github.com/conku/mailer"
 	"github.com/conku/mailer/gomailer"
 	"github.com/go-gomail/gomail"
-	"github.com/jinzhu/configor"
 )
 
 var Mailer *mailer.Mailer
