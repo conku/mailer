@@ -23,7 +23,7 @@ var Config = struct {
 	Port          int    `env:"SMTP_Port"`
 	User          string `env:"SMTP_User"`
 	Password      string `env:"SMTP_Password"`
-	DefaultTo     string `env:"SMTP_TO" default:"jinzhu@example.org"`
+	DefaultTo     string `env:"SMTP_TO" default:"conku@example.org"`
 	DefaultFrom   string `env:"SMTP_From" default:"from@example.org"`
 }{}
 
